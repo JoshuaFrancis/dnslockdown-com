@@ -2,14 +2,14 @@
 :root {
   --void:     #080B0F;
   --void-m:   #0D1117;
-  --green:    #22C55E;
-  --green-lt: #4ADE80;
+  --green:    #3B82F6;
+  --green-lt: #60A5FA;
   --ash:      #8B9AAD;
   --card:     #0D1520;
   --rule:     rgba(255,255,255,.07);
   --white:    #FFFFFF;
 
-  --ff-serif: 'Playfair Display', Georgia, serif;
+  --ff-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   --ff-sans:  'Inter', system-ui, sans-serif;
   --ff-mono:  'Courier New', Courier, monospace;
   --max: 1200px;
@@ -46,7 +46,7 @@ a { color: inherit; text-decoration: none; }
 .hero { padding: clamp(5rem, 10vw, 8rem) var(--pad) 0; border-bottom: 1px solid var(--rule); }
 .hero__inner { max-width: var(--max); margin: 0 auto; }
 .hero__top { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: end; margin-bottom: 3.5rem; }
-.hero__badge { display: inline-flex; align-items: center; gap: .5rem; background: rgba(34,197,94,.08); border: 1px solid rgba(34,197,94,.2); border-radius: 100px; padding: .3rem .85rem .3rem .6rem; margin-bottom: 1.5rem; }
+.hero__badge { display: inline-flex; align-items: center; gap: .5rem; background: rgba(59,130,246,.10); border: 1px solid rgba(59,130,246,.25); border-radius: 100px; padding: .3rem .85rem .3rem .6rem; margin-bottom: 1.5rem; }
 .hero__badge-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); }
 .hero__badge-text { font-size: .75rem; font-weight: 600; color: var(--green-lt); letter-spacing: .04em; text-transform: uppercase; font-family: var(--ff-mono); }
 .hero__hed { font-family: var(--ff-serif); font-size: clamp(2.4rem, 4vw, 3.6rem); font-weight: 700; line-height: 1.08; color: var(--white); }
@@ -55,7 +55,7 @@ a { color: inherit; text-decoration: none; }
 .hero__sub strong { color: var(--white); }
 .hero__cta { display: flex; flex-wrap: wrap; gap: 1rem; }
 .hero__img { width: 100%; aspect-ratio: 21/9; object-fit: cover; border-radius: 12px 12px 0 0; display: block;
-  background: linear-gradient(160deg, #041208 0%, #020a05 40%, #080B0F 100%); }
+  background: linear-gradient(160deg, #06152A 0%, #07111F 45%, #080B0F 100%); }
 
 .focus { padding: clamp(5rem, 9vw, 8rem) var(--pad); border-bottom: 1px solid var(--rule); }
 .focus__inner { max-width: var(--max); margin: 0 auto; }
